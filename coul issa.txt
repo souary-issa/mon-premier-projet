@@ -1,0 +1,5 @@
+rouge #ff0000
+orange #ffa500
+vert #00ff00
+noir #000000
+bleu #0000ff

@@ -1,0 +1,82 @@
+[*MiseEnPage*]
+<html>
+<head>
+<meta content="html/html; charset=utf-8" http-equiv="content-type">
+</head>
+<body>
+<h1>Grand theatre de python city</h1>
+{0}
+<h3><a href="/">Retour a la page d'acceuil</a></h3>
+<p style="color:blue"></p>
+</body>
+</html>>
+#####
+[*PageAccueil*]
+<form action="/identification" method=GET>
+<h4>Veuillez SVP entree vos coordonnées dans les champs ci-apres :</h4>
+<table>
+<tr><td>Votre nom :</td><td><input name="nom"></td></tr>
+<tr><td>Votre adresse courriel :</td><td><input name="mail"></td></tr>
+<tr><td>Votre numero de telephon :</td><td><input name="tel"></td></tr>
+</table>
+<input type="submit" class="button" name="acces" value="Access client">
+<input type="submit" class="button" name="acces" value="Access administrateur">
+<p style="color:blue"></p>
+</form>
+
+#####
+[*accesAdmin*]
+<ul>
+<li><a href="/entrerspectacles">Ajouter de nouveaux spectacles</a></li>
+<li><a href="/toutereservation">Lister les reservations</a></li>
+</ul>
+#####
+[*AccesClients*]
+<h3>Bonjour, {0}.</h3>
+<h4>Veuillez choisir l'action souhaitée :</h4>
+<ul>
+<li><a href="/reserver">Reserver des places pour un spectacles</a></li>>
+<li><a href="/finaliser">Finaliser l'enregistrement des reservations</a></li>
+<li><a href="/revoir">Revoir toutes les reservations effectuées</a></li>
+</ul>
+#####
+[*reserver*]
+<h3>les spectacles actuellemnt programmés sont les suivants :</h3>
+<p>{0}</p>
+<p>Les reservations seront faite au nom de <b></b>>.</p>
+<form action="/reservations" method=GET>
+<table>
+<tr><td>La ref du spectacle choisi:</td><td><input name="spect"></td></tr>
+<tr><td>Le nombres de places souhaitées:</td><td><input name="places"></td>></tr>
+</table>
+<input type=submit class="button" value="Enregistrer">
+</form>
+Remarque : les resrvation ne deviendront effective que lorsque vous aurez finaliséz votre "panier"
+#####
+[*reservations*]
+<h3>Reservations memorisées.</h3>
+<h4>Vous avez deja reservé {0} place(s) pour {1} spectacle(s).</h4>
+<h3><a href="/reserver">Reserver encore d'autres places</a></h3>
+N'oublier pas de finaliser l'ensembles de vos reservatios.
+##########
+[*entrerSpectacles*]
+<h3>Les spectacles actuellement programmés sont les suivants :
+{0}spectacle a ajouter :</h3>
+<form action="/memospectacles">
+<table>
+<tr><td>Titre du spectacle :</td><td><input name="titre"></td></tr>
+<tr><td>Prix des places :</td><td><input name="prixpl"></td></tr>
+<tr><td>Prix des places :</td><td><input name="prixpl"></td></tr>
+</table>
+<input type=submit class="button" value="Enregistrer">
+</form>
+#####
+[*touteReservation*]
+<h4>Les reservations ci-apres ont deja ete effectuées :</h4>
+<p>{0}</p>>
+##########
+[*revoir*}
+<h4>Réservations effectu"es par:</h4>
+<h3>{0}</h3><h4>Adresse courriel : {1} - Tél : {1}</h4>
+<p>(3)</p>>
+#####
