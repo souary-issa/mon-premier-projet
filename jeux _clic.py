@@ -12,7 +12,7 @@ class Bouton(Button):
 
 
 class Jeux(Frame):
-    """app pour jeuc de clique constructeur de la class principal derivé de la class frame"""
+    """app pour jeux de clique constructeur de la class principal derivé de la class frame"""
     def __init__(self, boss=None, haut=500, large=500):
         self.haut, self.large = haut, large
         self.run, self.x, self.y, self.r = 0, 0, 0, 30
