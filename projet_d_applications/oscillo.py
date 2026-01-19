@@ -1,5 +1,5 @@
-from projet_d_applicatios.oscillographe import Graphique
-from projet_d_applicatios.curseurs import *
+from projet_d_applications.oscillographe import Graphique
+from projet_d_applications.curseurs import *
 
 
 class Voir(Frame):

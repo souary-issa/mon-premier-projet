@@ -1,17 +1,22 @@
-# mon premier projet : jeu de clic 
-ceci est mon tout premier projet python géré avec git
-et hébergé sur github !
+# Ma collections de projets python
+Bienvenue sur mon depot Github ! je
+regroupe ici tous mes progarmmes et jeux créés pendant
+mon apprentissage. 
+## organisation du projet
+le projet est divisé en plusieurs categories pour plus de clarté :
 
-# Description
-c'est un petit jeu interactif développé en python avec
-(avec la bibliotheque Tkinter)
-le but le but est de cliquer sur la bal pour augmenter son score.
+** jeux interactifs ** : contintle jeu de clic, le jeu de carte.
+** Applications ** : divers petit outils et projet d'application.
 
-## Comment lancer le jeu
-1. Assure-vous d'avoir python installé
-2. Lancez le script avec la command: bash
-python jeux_clic.py
-# Ce que j'ai appris
+** Exercices ** : Mes tests et algorithmes d'entrainement.
+
+## Installation et Lancement
+pour tester un jeu sur votre ordinateur :
+1. clonez le depot.
+2. Allez dans le dossier du jeu : 'cd jeux_interactifs'
+3. lancez le fichier principal:
+'python jeuc_clic.py'
+# Mes progres
  les base de la programmation orientée objet en python
  
   la gestion d'interface graphique
